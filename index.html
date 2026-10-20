@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Technical Documentation Page</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <nav id="navbar">
+      <header>JS Documentation</header>
+      <a class="nav-link" href="#Introduction">Introduction</a>
+      <a class="nav-link" href="#What_you_should_already_know">What you should already know</a>
+      <a class="nav-link" href="#JavaScript_and_Java">JavaScript and Java</a>
+      <a class="nav-link" href="#Hello_world">Hello world</a>
+      <a class="nav-link" href="#Reference">Reference</a>
+    </nav>
+
+    <main id="main-doc">
+      <section class="main-section" id="Introduction">
+        <header><h2>Introduction</h2></header>
+        <p>JavaScript is a cross-platform, object-oriented scripting language. It is a small and lightweight language. Inside a host environment (such as a web browser), JavaScript can be connected to the objects of its environment to provide programmatic control over them.</p>
+        <p>JavaScript contains a standard library of objects, such as Array, Date, and Math, and a core set of language elements such as operators, control structures, and statements.</p>
+        <p>Core JavaScript can be extended for a variety of purposes by supplementing it with additional objects; for example:</p>
+        <ul>
+          <li>Client-side JavaScript extends the core language by supplying objects to control a browser and its Document Object Model (DOM).</li>
+          <li>Server-side JavaScript extends the core language by supplying objects relevant to running JavaScript on a server.</li>
+        </ul>
+        <code>console.log("Hello, World!");</code>
+      </section>
+
+      <section class="main-section" id="What_you_should_already_know">
+        <header><h2>What you should already know</h2></header>
+        <p>This guide assumes you have the following basic background:</p>
+        <ul>
+          <li>A general understanding of the Internet and the World Wide Web (WWW).</li>
+          <li>Working knowledge of HyperText Markup Language (HTML) and Cascading Style Sheets (CSS).</li>
+          <li>Some programming experience. If you are new to programming, try one of the tutorials linked on the main page.</li>
+        </ul>
+        <p>Having prior familiarity with programming concepts makes picking up modern JavaScript syntax much faster and smoother.</p>
+        <code>let experienceLevel = "beginner";</code>
+      </section>
+
+      <section class="main-section" id="JavaScript_and_Java">
+        <header><h2>JavaScript and Java</h2></header>
+        <p>JavaScript and Java are similar in some ways but fundamentally different in others. The JavaScript language resembles Java but does not have Java's static typing and strong type checking.</p>
+        <p>JavaScript follows most Java expression syntax, naming conventions and basic control-flow constructs which was the reason why it was renamed from LiveScript to JavaScript.</p>
+        <ul>
+          <li>Java is an object-oriented programming language designed for fast execution and type safety.</li>
+          <li>JavaScript is an embedded client-side scripting language focused on dynamic interactivity.</li>
+        </ul>
+        <p>In contrast to Java's compile-time system built on classes, JavaScript supports a runtime system based on a small number of data types representing numeric, boolean, and string values.</p>
+        <code>const isJava = false;</code>
+      </section>
+
+      <section class="main-section" id="Hello_world">
+        <header><h2>Hello world</h2></header>
+        <p>To get started with writing JavaScript, you can open the Scratchpad and write your first "Hello world" JavaScript code:</p>
+        <code>function greetUser(name) { return "Hello " + name; }</code>
+        <p>The code above declares a function that takes a name parameter and returns a greeting string. You can invoke this function in any active browser console.</p>
+        <p>Understanding how basic functions operate gives you the foundation needed to build more complex logical applications and interactive web pages.</p>
+        <ul>
+          <li>Functions encapsulate reusable blocks of logic.</li>
+          <li>Parameters allow passing dynamic arguments into functions.</li>
+        </ul>
+      </section>
+
+      <section class="main-section" id="Reference">
+        <header><h2>Reference</h2></header>
+        <p>All the documentation on JavaScript can be found on external resources like MDN Web Docs and official community portals.</p>
+        <p>Feel free to explore further reading materials to enhance your frontend development skill set and master modern coding workflows.</p>
+        <ul>
+          <li>Check out MDN Web Docs for comprehensive API lists.</li>
+          <li>Practice regularly on interactive coding platforms.</li>
+        </ul>
+        <code>console.log("End of documentation.");</code>
+      </section>
+    </main>
+  </body>
+</html>

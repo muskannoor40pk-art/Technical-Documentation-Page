@@ -1,0 +1,123 @@
+@media screen and (max-width: 768px){
+
+}
+/* General Layout & Styling */
+html {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f7f6; /* Soft, modern background */
+  color: #2c3e50;
+  line-height: 1.6;
+}
+
+/* Sidebar Navbar Styling with a sleek dark theme */
+#navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 280px;
+  height: 100%;
+  background-color: #1e293b; /* Dark slate background */
+  border-right: 1px solid #cbd5e1;
+  display: flex;
+  flex-direction: column;
+  overflow-y: auto;
+}
+
+#navbar header {
+  font-size: 1.3rem;
+  font-weight: bold;
+  padding: 1.5rem 1rem;
+  color: #ffffff;
+  background-color: #0f172a; /* Deeper shade for header */
+  border-bottom: 1px solid #334155;
+  text-align: center;
+}
+
+.nav-link {
+  display: block;
+  padding: 0.9rem 1.5rem;
+  color: #cbd5e1;
+  text-decoration: none;
+  border-bottom: 1px solid #334155;
+  transition: all 0.2s ease;
+}
+
+.nav-link:hover {
+  background-color: #334155;
+  color: #38bdf8; /* Bright accent color on hover */
+  padding-left: 1.8rem; /* Slight shift effect */
+}
+
+/* Main Content Area */
+#main-doc {
+  margin-left: 280px;
+  padding: 2.5rem 3rem;
+  max-width: 900px;
+}
+
+.main-section {
+  margin-bottom: 2.5rem;
+  background: #ffffff;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+}
+
+.main-section header h2 {
+  margin-top: 0;
+  color: #0f172a;
+  border-bottom: 2px solid #e2e8f0;
+  padding-bottom: 0.5rem;
+}
+
+p {
+  margin-bottom: 1rem;
+  color: #475569;
+}
+
+ul {
+  margin: 1rem 0;
+  padding-left: 1.5rem;
+}
+
+li {
+  margin-bottom: 0.5rem;
+  color: #475569;
+}
+
+code {
+  display: block;
+  background-color: #f8fafc;
+  padding: 1rem;
+  border-radius: 6px;
+  font-family: monospace;
+  color: #0f172a;
+  margin: 1rem 0;
+  border-left: 4px solid #38bdf8;
+  border: 1px solid #e2e8f0;
+  border-left-width: 4px;
+  white-space: pre-wrap;
+}
+
+/* Media Query for Smaller Screens */
+@media screen and (max-width: 768px) {
+  #navbar {
+    position: relative;
+    width: 100%;
+    height: auto;
+    border-right: none;
+    border-bottom: 1px solid #dddddd;
+  }
+  
+  #main-doc {
+    margin-left: 0;
+    padding: 1.5rem;
+  }
+}
